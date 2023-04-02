@@ -1,0 +1,121 @@
+/* INITIALIZE CSS */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "interstate-condensed", sans-serif;
+  color: #1f1f1f;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #686868;
+}
+
+.am-bg-dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.am-mt-1 {
+  margin-top: 1rem;
+}
+
+.am-btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #1f1f1f;
+  width: 7rem;
+  height: 2.5rem;
+  border-radius: 5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.am-btn-primary:hover {
+  color: #1f1f1f;
+  background-color: #fff;
+  font-size: 1.5rem;
+  border: 1px solid;
+}
+
+/* HEADER */
+/* ========== START HEADER =============== */
+header {
+  font-family: "interstate-condensed", sans-serif;
+  margin-top: 5rem;
+}
+
+header .am-header-wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/headers/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  padding: 0.8rem 4rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  background-position: left;
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr;
+}
+
+header .am-text-title {
+  font-size: 5rem;
+  color: #fff;
+}
+
+header .am-text-desc {
+  color: #e0dcd9;
+  text-transform: none;
+  font-size: 1.5rem;
+}
+
+header .am-btn-shop-now {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #1f1f1f;
+  width: 7rem;
+  height: 2.5rem;
+  border-radius: 5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+header .am-btn-shop-now:hover {
+  color: #1f1f1f;
+  background-color: #fff;
+  font-size: 1.5rem;
+  border: 1px solid;
+}
+
+/* ========== END HEADER =============== */
+
+/* MAIN */
+/* =========================== START MAIN =============================*/
+main {
+  background: linear-gradient(
+    90deg,
+    rgba(243, 243, 243, 1) 0%,
+    rgba(239, 237, 236, 1) 50%,
+    rgba(224, 220, 217, 1) 100%
+  );
+}
+/* =========================== END MAIN =============================*/
