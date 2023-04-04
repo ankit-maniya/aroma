@@ -46,6 +46,14 @@ a {
   margin: 2rem;
 }
 
+.am-bg-white {
+  background-color: #fff;
+}
+
+.am-shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .am-btn-primary {
   display: flex;
   align-items: center;
@@ -314,4 +322,46 @@ main {
   justify-content: space-around;
 }
 /* =========================== END SECTION2  =============================*/
+
+/* =========================== START SECTION3  =============================*/
+.am-sec3 {
+  padding: 0.8rem 4rem;
+  /* margin: 1rem; */
+  background: linear-gradient(
+    90deg,
+    rgba(243, 243, 243, 1) 0%,
+    rgba(239, 237, 236, 1) 50%,
+    rgba(224, 220, 217, 1) 100%
+  );
+}
+
+.am-sec3 .partner-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0.5rem;
+}
+
+.col-grid-1, .col-grid-2, .col-grid-3, .col-grid-4 {
+  grid-column: span 3;
+}
+
+.col-grid-5 {
+  grid-column: span 4;
+}
+.col-grid-6 {
+  grid-column: span 4;
+}
+.col-grid-7 {
+  grid-column: span 4;
+}
+
+.partner-container > div {
+  height: 150px;
+}
+
+.partner-container > div:hover {
+  background-color: #ffa601;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+/* =========================== END SECTION3  =============================*/
 /* =========================== END MAIN =============================*/
