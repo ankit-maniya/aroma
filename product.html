@@ -4,46 +4,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product</title>
+ <!-- START COMMON CSS -->
+ <link rel="stylesheet" href="fonts/index.css" />
+ <link rel="stylesheet" href="css/common/index.css" />
+ <link rel="stylesheet" href="css/common/navbar.css" />
+ <link rel="stylesheet" href="css/common/footer.css" />
+ <!-- END COMMON CSS -->
+
+ <!-- Page CSS -->
+    <link rel="stylesheet" href="./css/product.css">
+    <title>Products</title>
   </head>
   <body>
-    <!-- ==================== START NAVBAR ====================== -->
-    <nav>
-      <ul>
-        <li>
-          <a href="./index.html">AROMA</a>
-        </li>
-        <li>
-          <a href="./index.html">Home</a>
-        </li>
-        <li>
-          <a href="./product.html">Product</a>
-        </li>
-        <li>
-          <a href="./contact-us.html">Contact Us </a>
-        </li>
-        <li>
-          <a href="./about-us.html">About Us</a>
-        </li>
-        <li>
-          <a href="./add_to_cart.html">
-            <img src="./images/icons/cart.svg" alt="cart-logo" width="30" />
-            Cart
-          </a>
-        </li>
-        <li>
-          <a href="./index.html">
-            <img
-              src="./images/icons/search-alt.svg"
-              alt="search-logo"
-              width="30"
-            />
-            Search
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <!-- ==================== END NAVBAR ====================== -->
+  <!-- ==================== START NAVBAR ====================== -->
+  <nav class="am-bg-dark">
+    <ul class="am-left">
+      <li class="am-logo">
+        <a href="./index.html" class="am-logo-container">
+          <img
+            alt="star-of-life-bold"
+            class="am-star_icon"
+            src="./images/icons/star-of-life-bold-white.svg"
+            width="35"
+          />
+          AROMA FASHION
+        </a>
+      </li>
+    </ul>
+    <ul class="am-right">
+      <li>
+        <a class="active" href="./index.html">Home</a>
+      </li>
+      <li>
+        <a href="./product.html">Product</a>
+      </li>
+      <li>
+        <a href="./contact-us.html">Contact Us </a>
+      </li>
+      <li>
+        <a href="./about-us.html">About Us</a>
+      </li>
+      <li>
+        <a href="./about-us.html">Cart</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- ==================== END NAVBAR ====================== -->
 
     <!-- ==================== START BODY ====================== -->
     <h1>PRODUCT Page</h1>
@@ -51,7 +57,7 @@
       <div class="left-container">
           <h2>Filter</h2>
           <h3>Shop By</h3>
-          <ul>
+          <ul class="jp-c">
               <li>
                   <input type="checkbox" name="Male" id="Male">
                   <label for="Male">Male</label>
@@ -62,7 +68,7 @@
               </li>
           </ul>
           <h3>Categories</h3>
-          <ul>
+          <ul class="jp-c">
               <li>
                   <input type="checkbox" name="Tshirt" id="Tshirt">
                   <label for="Tshirt">Tshirt</label>
@@ -74,7 +80,7 @@
           </ul>
 
           <h3>Brand</h3>
-          <ul>
+          <ul class="jp-c">
               <li>
                   <input type="checkbox" name="Roadster" id="Roadster">
                   <label for="Roadster">Adidas</label>
@@ -101,7 +107,7 @@
               </li>
           </ul>
           <h3>Price</h3>
-          <ul>
+          <ul class="jp-c">
               <li>
                   <input type="checkbox" name="a100-500">
                   <label for="a100-500">$100 - $500</label>
@@ -138,25 +144,25 @@
           </div>
           <div class="row">
               <div class="col-4">
-                  <img src="imgs/joel-muniz-juKjPjVBza8-unsplash.jpg" alt="" />
+                  <img src="images/products/joel-muniz-juKjPjVBza8-unsplash.jpg" alt="" />
                   <h4>Cavaliers SweatShirt by Nike</h4>
 
                   <p>$504</p>
               </div>
               <div class="col-4">
-                  <img src="imgs/gui-franca-tCDPZO9S6Go-unsplash.jpg" alt="" />
+                  <img src="images/products/gui-franca-tCDPZO9S6Go-unsplash.jpg" alt="" />
                   <h4>Polo Ralph Lauren</h4>
 
                   <p>$785</p>
               </div>
               <div class="col-4">
-                  <img src="imgs/jorge-salvador-iGzHMzRZjRs-unsplash.jpg" alt="" />
+                  <img src="images/products/jorge-salvador-iGzHMzRZjRs-unsplash.jpg" alt="" />
                   <h4>Allen Solly Shirt</h4>
 
                   <p>$269</p>
               </div>
               <div class="col-4">
-                  <img src="imgs/marcel-j-uWrCdB5sM-unsplash.jpg" alt="" />
+                  <img src="images/products/marcel-j-uWrCdB5sM-unsplash.jpg" alt="" />
                   <h4>H&M SweatShirt</h4>
 
                   <p>$444</p>
@@ -164,25 +170,25 @@
           </div>
           <div class="row">
               <div class="col-4">
-                  <img src="imgs/pro1-nike-3695.png" alt="" />
+                  <img src="images/products/pro1-nike-3695.png" alt="" />
                   <h4>Calvin Klein Sweater</h4>
 
                   <p>$189</p>
               </div>
               <div class="col-4">
-                  <img src="imgs/pro2-Polo Ralph Lauren-12990.png" alt="" />
+                  <img src="images/products/pro2-Polo Ralph Lauren-12990.png" alt="" />
                   <h4>SELECTED Blazer</h4>
 
                   <p>$269</p>
               </div>
               <div class="col-4">
-                  <img src="imgs/pro3-allen solly - 2369.png" alt="" />
+                  <img src="images/products/pro3-allen solly - 2369.png" alt="" />
                   <h4>Anubhutte Dress</h4>
 
                   <p>$1059</p>
               </div>
               <div class="col-4">
-                  <img src="imgs/pro4-h&m-1499.png" alt="" />
+                  <img src="images/products/pro4-h&m-1499.png" alt="" />
                   <h4>Biba Dress</h4>
 
                   <p>$889</p>
@@ -190,25 +196,25 @@
           </div>
           <div class="row">
               <div class="col-4">
-                  <img src="imgs/mediamodifier-fTDWpCxLA0k-unsplash.jpg" alt="" />
+                  <img src="images/products/mediamodifier-fTDWpCxLA0k-unsplash.jpg" alt="" />
                   <h4>Dorothy Perkins Skirts</h4>
 
                   <p>$562</p>
               </div>
               <div class="col-4">
-                  <img src="imgs/marlon-alves-A0mSSCEVh9A-unsplash.jpg" alt="" />
+                  <img src="images/products/marlon-alves-A0mSSCEVh9A-unsplash.jpg" alt="" />
                   <h4>Bobbi Brown Cream</h4>
 
                   <p>$369</p>
               </div>
               <div class="col-4">
-                  <img src="imgs/the-graphic-space-FTrGeAy0RW4-unsplash.jpg" alt="" />
+                  <img src="images/products/the-graphic-space-FTrGeAy0RW4-unsplash.jpg" alt="" />
                   <h4>Access Her Necklace</h4>
 
                   <p>$785</p>
               </div>
               <div class="col-4">
-                  <img src="imgs/mediamodifier-ogmenj2NGho-unsplash.jpg" alt="" />
+                  <img src="images/products/mediamodifier-ogmenj2NGho-unsplash.jpg" alt="" />
                   <h4>Fossil Smart Watch</h4>
 
                   <p>$779</p>
@@ -216,25 +222,25 @@
           </div>
           <div class="row">
               <div class="col-4">
-                  <img src="imgs/bao-bao-GREEBEtyR9Y-unsplash.jpg" alt="" />
+                  <img src="images/products/bao-bao-GREEBEtyR9Y-unsplash.jpg" alt="" />
                   <h4>Lacoste kids T-shirt</h4>
 
                   <p>$255</p>
               </div>
               <div class="col-4">
-                  <img src="imgs/don-delfin-almonte-ebTNU_YTWgc-unsplash.jpg" alt="" />
+                  <img src="images/products/don-delfin-almonte-ebTNU_YTWgc-unsplash.jpg" alt="" />
                   <h4>The Light Lamp</h4>
 
                   <p>$989</p>
               </div>
               <div class="col-4">
-                  <img src="imgs/good-faces-aP8KhiHbSvo-unsplash.jpg" alt="" />
+                  <img src="images/products/good-faces-aP8KhiHbSvo-unsplash.jpg" alt="" />
                   <h4>Harmon Kardon Headphones</h4>
 
                   <p>$652</p>
               </div>
               <div class="col-4">
-                  <img src="imgs/sahil-moosa-s27B05TjXxw-unsplash.jpg" alt="" />
+                  <img src="images/products/sahil-moosa-s27B05TjXxw-unsplash.jpg" alt="" />
                   <h4>Steve Madden Heels</h4>
 
                   <p>$223</p>
@@ -252,60 +258,72 @@
   </div>
   </div>    <!-- ==================== END BODY ====================== -->
 
-    <!-- ==================== START FOOTER ====================== -->
-    <footer>
-      <div>
-        <div>
-          <div>
-            <a href="./index.html">
-              <img
-                alt="star-of-life-bold"
-                src="./images/icons/star-of-life-bold-white.svg"
-                width="35"
-              />
-              AROMA FASHION
-            </a>
+          <!-- ==================== END FEATURE SECTION ====================== -->
+        </main>
+        <!-- ==================== END MAIN ====================== -->
+    
+        <!-- ==================== START FOOTER ====================== -->
+        <footer>
+          <div class="am-info">
+            <div class="am-logo-wrapper">
+              <div class="am-inner-wrapper">
+                <a href="./index.html" class="am-logo-link">
+                  <img
+                    alt="star-of-life-bold"
+                    class="am-star_icon"
+                    src="./images/icons/star-of-life-bold-white.svg"
+                    width="35"
+                  />
+                  AROMA FASHION
+                </a>
+              </div>
+              <div class="am-input-wrapper am-mt-1">
+                <input
+                  type="text"
+                  class="am-input"
+                  placeholder="Enter your email!"
+                />
+                <a class="am-btn-primary am-mt-1" href="./index.html">SUBMIT</a>
+              </div>
+            </div>
+            <div class="am-left-side">
+              <h2>Quick Links</h2>
+              <ul class="am-left">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="./product.html">Product</a>
+                </li>
+                <li>
+                  <a href="./contact-us.html">Contact Us</a>
+                </li>
+                <li>
+                  <a href="./about-us.html">About Us</a>
+                </li>
+                <li>
+                  <a href="./add_to_cart.html">Cart</a>
+                </li>
+              </ul>
+            </div>
+            <div class="am-right-side">
+              <h2>Contact Us</h2>
+              <h3>344, Batavia Place, North Waterloo</h3>
+              <h3>(906)-999-2297 (9am - 5pm EST, Monday - Friday)</h3>
+              <h3>
+                <a href="mailto:service@aromafashion.com"
+                  >service@aromafashion.com</a
+                >
+              </h3>
+            </div>
           </div>
-          <div>
-            <input type="text" placeholder="Enter your email!" />
-            <a href="./index.html">SUBMIT</a>
+          <div id="copyright">
+            <h3>
+              <span>&#169; 2023</span> <a href="./index.html">Aroma Fashion</a> -
+              All Rights Reserved.
+            </h3>
           </div>
-        </div>
-        <div>
-          <h3>Quick Links</h3>
-          <ul>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="./product.html">Product</a>
-            </li>
-            <li>
-              <a href="./contact-us.html">Contact Us</a>
-            </li>
-            <li>
-              <a href="./about-us.html">About Us</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3>Contact Us</h3>
-          <p>344, Batavia Place, North Waterloo</p>
-          <p>(906)-999-2297 (9am - 5pm EST, Monday - Friday)</p>
-          <p>
-            <a href="mailto:service@aromafashion.com"
-              >service@aromafashion.com</a
-            >
-          </p>
-        </div>
-      </div>
-      <div id="copyright">
-        <h3>
-          <span>&#169; 2023</span> <a href="./index.html">Aroma Fashion</a> -
-          All Rights Reserved.
-        </h3>
-      </div>
-    </footer>
-    <!-- ==================== END FOOTER ====================== -->
+        </footer>
+        <!-- ==================== END FOOTER ====================== -->
   </body>
 </html>
