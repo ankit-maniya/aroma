@@ -1,5 +1,4 @@
-
-.jp-c{
+.jp-c {
     padding: 0%;
 }
 
@@ -206,51 +205,6 @@ small {
     filter: grayscale(0);
 }
 
-.footer {
-    background: #c5c4c4;
-    color: #000;
-    font-size: 14px;
-    padding: 60px 0 20px;
-}
-
-.footer p {
-    color: #000;
-}
-
-.footer h3 {
-    color: black;
-}
-
-.footer-col-1,
-.footer-col-2,
-.footer-col-3,
-.footer-col-4 {
-    min-width: 250px;
-    margin-bottom: 20px;
-}
-
-.footer-col-1 {
-    flex-basis: 12%;
-    text-align: center;
-}
-
-.footer-col-2 {
-    flex: 1;
-    text-align: center;
-}
-
-.footer-col-2 img {
-    width: 220px;
-    margin-bottom: 20px;
-    height: 60px;
-}
-
-.footer-col-3,
-.footer-col-4 {
-    flex-basis: 12%;
-    text-align: center;
-}
-
 ul {
     list-style: none;
 }
@@ -280,43 +234,6 @@ ul {
     display: none;
 }
 
-@media only screen and (max-width: 800px) {
-    .left-container {
-        display: none;
-    }
-
-    .right-container {
-        flex-basis: 100%;
-    }
-
-    nav ul {
-        position: absolute;
-        top: 70px;
-        left: 0;
-        background: #333333;
-        opacity: 0.8;
-        width: 100%;
-        overflow: hidden;
-        transition: max-height 0.6s;
-    }
-
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
-        margin-right: 50px;
-        margin-top: 10px;
-    }
-
-    nav ul li a {
-        color: whitesmoke;
-    }
-
-    .menu-icon {
-        display: block;
-        cursor: pointer;
-    }
-
-}
 
 .row-2 {
     justify-content: space-between;
@@ -548,34 +465,4 @@ form a {
     margin-top: 8px;
     transform: translateX(100px);
     transition: transform 1s;
-}
-
-@media only screen and (max-width: 600px) {
-    .row {
-        text-align: center;
-    }
-
-    .col-2,
-    .col-3,
-    .col-4 {
-        flex-basis: 100%;
-    }
-
-    .single-product .row {
-        text-align: left;
-    }
-
-    .single-product .col-2 {
-        padding: 20px 0;
-    }
-
-    .single-product h1 {
-        font-size: 26px;
-        line-height: 32px;
-    }
-
-    .cart-info p {
-        display: none;
-    }
-
 }
