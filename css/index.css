@@ -80,6 +80,7 @@ header .am-btn-shop-now:hover {
 .am-sec1 .product-wrapper {
   display: flex;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .am-sec1 .card {
@@ -94,7 +95,7 @@ header .am-btn-shop-now:hover {
 
 .am-sec1 .card img {
   /* border-radius: 1rem; */
-  max-width: 70%;
+  max-width: 100%;
   object-fit: cover;
 }
 
