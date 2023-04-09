@@ -16,7 +16,6 @@
     flex-basis: 20%;
 }
 
-
 h3 {
     margin-top: 20px;
 }
@@ -150,15 +149,16 @@ input:focus {
 }
 
 @media only screen and (max-width: 800px) {
-   
     .am-text-l {
         margin-top: 10px;
         margin-bottom: 0px;
 
     }
+
     .left-container {
         display: none;
     }
+
     .main_container {
         grid-template-columns: auto;
         padding: 0.8rem 1rem;
@@ -167,12 +167,7 @@ input:focus {
     .right-container .product-container {
         grid-template-columns: repeat(2, 1fr);
     }
-
 }
-
-
-
-
 
 @media only screen and (max-width: 600px) {
     .p1 {
@@ -186,5 +181,5 @@ input:focus {
 
     }
 
-   
+
 }
