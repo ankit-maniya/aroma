@@ -142,8 +142,9 @@ header .am-btn-shop-now:hover {
   position: relative;
 }
 
-.am-sec2 .card img {
+.am-sec2 .card a > img {
   object-fit: cover;
+  width: 40px;
 }
 
 .am-sec2 .card .card-inner-body {
@@ -289,3 +290,135 @@ header .am-btn-shop-now:hover {
 }
 /* =========================== END SECTION5  =============================*/
 /* =========================== END MAIN =============================*/
+
+/*
+  TABLET VIEW
+  On screens that are 1024px or less, tablet devices  
+*/
+@media screen and (max-width: 1024px) {
+  header {
+    margin-top: 8.8rem;
+  }
+
+  header .am-header-wrapper {
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 76vh;
+  }
+
+  header .am-header-wrapper span,
+  header .am-header-wrapper a {
+    align-self: center;
+  }
+
+  header .am-text-title {
+    font-size: 4rem;
+  }
+
+  .am-sec1,
+  .am-sec2,
+  .am-sec3,
+  .am-sec4,
+  .am-sec5 {
+    padding: 0.8rem 1rem;
+  }
+
+  .am-sec1 .card {
+    flex: 1 35%;
+  }
+
+  .b-btn {
+    font-size: 1.5rem;
+  }
+
+  .am-text-sm {
+    font-size: 1.7rem;
+  }
+}
+
+/* 
+  MOBILE VIEW
+  On screens that are 760px or less, mobile devices 
+*/
+@media screen and (max-width: 760px) {
+  header {
+    margin-top: 8.5rem;
+  }
+
+  header .am-header-wrapper {
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 80vh;
+  }
+
+  .am-text-l {
+    font-size: 2.5rem;
+  }
+
+  .am-sec2 .grid-category-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .d-none {
+    display: block;
+  }
+
+  header .am-header-wrapper {
+    padding: 0.8rem 1rem;
+  }
+
+  .am-sec2 .card a > img {
+    width: 30px;
+  }
+
+  .am-sec2 .grid-category-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .am-box3 {
+    grid-column-start: auto;
+    grid-column-end: auto;
+    grid-row-start: auto;
+    grid-row-end: auto;
+    /* align-self: center;
+    z-index: 0;
+    position: relative;
+    height: 100%; */
+  }
+
+  .am-box3 h2 {
+    width: 0.2rem;
+  }
+
+  .big-card-details {
+    bottom: 2px;
+    top: auto;
+    border-radius: 0px 0px 1rem 1rem;
+  }
+
+  .am-sec3 .partner-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0.5rem;
+  }
+
+  .col-grid-1,
+  .col-grid-2,
+  .col-grid-3,
+  .col-grid-4 {
+    grid-column: span 4;
+  }
+
+  .col-grid-5 {
+    grid-column: span 4;
+  }
+  .col-grid-6 {
+    grid-column: span 4;
+  }
+  .col-grid-7 {
+    grid-column: span 12;
+  }
+
+  .am-sec4 .comming-soon-container,
+  .am-sec5 .feature-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -54,4 +54,37 @@ nav .am-right {
   display: flex;
 }
 
+/*
+  TABLET VIEW
+  On screens that are 1024px or less, tablet devices  
+*/
+@media screen and (max-width: 1024px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .am-left,
+  .am-right {
+    justify-content: center;
+  }
+
+  nav a {
+    font-size: 2rem;
+  }
+}
+
+/* 
+  MOBILE VIEW
+  On screens that are 760px or less, mobile devices 
+*/
+@media screen and (max-width: 760px) {
+  nav {
+    padding: 0;
+  }
+
+  nav a {
+    font-size: 1.5rem;
+  }
+}
+
 /* ========== END NAVBAR =============== */

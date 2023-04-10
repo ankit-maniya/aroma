@@ -70,4 +70,28 @@ footer #copyright a,
   color: #fff;
 }
 
+/*
+  TABLET VIEW
+  On screens that are 1024px or less, tablet devices  
+*/
+@media screen and (max-width: 1024px) {
+}
+
+/* 
+  MOBILE VIEW
+  On screens that are 760px or less, mobile devices 
+*/
+@media screen and (max-width: 760px) {
+  .am-info {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .am-left-side,
+  .am-right-side {
+    text-align: center;
+  }
+}
+
 /* ========== END FOOTER =============== */
