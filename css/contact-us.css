@@ -34,3 +34,66 @@ header {
     text-align: center;
     font-size: 3rem;
   }
+  .hz-sec-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.8rem 4rem;
+  }
+  aside{
+    display: block;
+  }
+  .right-container {
+    display: grid;
+    gap: 1rem;
+}
+.hz-star{
+    color: red;
+}
+.hz-input{
+    width: 100%;
+    display: block;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+.hz-col-md{
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.hz-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #1f1f1f;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 40%;
+
+}
+.hz-btn:hover{
+    color: #1f1f1f;
+    background-color: #fff;
+    border: 2px solid #1f1f1f;
+}

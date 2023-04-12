@@ -85,6 +85,7 @@ header {
     background-color: #444;
     color: #eee;
     font-size: 2rem;
+    margin-top: 490px;
   }
   .hz-table-con tbody tr:nth-of-type(even) {
     background: linear-gradient( 90deg, rgba(243, 243, 243, 1) 0%, rgba(239, 237, 236, 1) 50%, rgba(224, 220, 217, 1) 100% );
