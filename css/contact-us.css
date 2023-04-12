@@ -37,7 +37,7 @@ header {
   .hz-sec-1{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0.8rem 10rem;
+    padding: 0.8rem 8rem;
   }
   aside{
     display: block;
