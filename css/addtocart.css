@@ -48,6 +48,10 @@
   flex-direction: column;
 }
 
+.product-body > p {
+  padding-left: 0.5rem;
+}
+
 .b-btn {
   border: 1px solid #1f1f1f;
   padding: 4px 6px;
