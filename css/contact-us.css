@@ -37,7 +37,7 @@ header {
   .hz-sec-1{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0.8rem 4rem;
+    padding: 0.8rem 10rem;
   }
   aside{
     display: block;
@@ -48,6 +48,9 @@ header {
 }
 .hz-star{
     color: red;
+}
+.hz-label{
+    font-size: 1.5rem;
 }
 .hz-input{
     width: 100%;
@@ -90,10 +93,25 @@ header {
     cursor: pointer;
     font-size: 1.2rem;
     margin-left: 40%;
+    margin-top: 10%;
 
+}
+.hz-pd-32{
+    padding: 32px;
 }
 .hz-btn:hover{
     color: #1f1f1f;
     background-color: #fff;
     border: 2px solid #1f1f1f;
+}
+.hz-h3{
+    text-align: left;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.hz-address{
+    font-size: 1.5rem;
+}
+.hz-h4{
+    font-size: 1.5rem;
 }
