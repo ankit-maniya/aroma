@@ -64,6 +64,56 @@
   color: #1f1f1f;
   background-color: transparent;
 }
-.btn-aply{
+.btn-aply {
   margin-top: 20%;
+}
+
+@media screen and (max-width: 1024px) {
+  .am-sec1 {
+    margin-top: 7.5rem;
+  }
+
+  .p1 {
+    padding: 1.8rem 1rem;
+  }
+
+  .am-text-l {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .left-container {
+    display: none;
+  }
+
+  .main_container {
+    grid-template-columns: auto;
+    padding: 0.8rem 1rem;
+  }
+
+  .right-container .product-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .right-container .d-none {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .p1 {
+    padding: 0.5rem 1rem;
+  }
+
+  .right-container .product-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .am-sec1 {
+    margin-top: 7rem;
+  }
+
+  .right-container .d-none {
+    display: block;
+  }
 }
