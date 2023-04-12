@@ -82,14 +82,49 @@ header {
     margin: 0 auto;
 }
 .hz-table-con thead tr {
-    background-color: #ffa601;
+    background-color: #444;
     color: #eee;
     font-size: 2rem;
   }
   .hz-table-con tbody tr:nth-of-type(even) {
-    background-color: #ffdea0;
+    background: linear-gradient( 90deg, rgba(243, 243, 243, 1) 0%, rgba(239, 237, 236, 1) 50%, rgba(224, 220, 217, 1) 100% );
   }
   .hz-table-con th, table td {
     padding: 5px;
     text-align: center;
   }
+  .hz-subhead-que{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  .hz-para{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Archivo', sans-serif !important;
+  }
+  .hz-que-head{
+    margin-top: 0;
+  }
+  .hz-que-head a{
+    color: #444;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    background: linear-gradient( 90deg, rgba(243, 243, 243, 1) 0%, rgba(239, 237, 236, 1) 50%, rgba(224, 220, 217, 1) 100% );
+    font-size: 20px;
+    line-height: 28px;
+
+}
+.hz-fa-plus{
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+.hz-wrapper-que{
+    padding: 48px;
+    padding-left: 144px !important;
+    padding-right: 144px !important;
+}
